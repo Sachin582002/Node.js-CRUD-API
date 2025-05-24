@@ -75,7 +75,7 @@ exports.singleFetchBook = async function(req,res){
     // books.findAll({
     //     where : {
     //         bookName : "hello world", 
-    //         authorName : "manish"
+    //         authorName : "sachin"
     //     }
     // })
     // }) // select * from books where bookName="hello world" && authorName = "manish"

@@ -4,11 +4,12 @@ const cors = require("cors")
 
 const app = express() // express lai trigger gareko 
 require("./database/connection")
+app.use(express.json())
 
 app.use(cors({
     origin : "*"
 }))
-app.use(express.json())
+
 
 // let app = require("express")()
 

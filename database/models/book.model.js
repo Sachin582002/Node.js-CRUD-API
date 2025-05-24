@@ -15,7 +15,10 @@ const bookModel = (sequelize,DataTypes)=>{
        }, 
        bookGenre : {
            type : DataTypes.STRING
-       }
+       },
+       bookDescription : {
+            type : DataTypes.TEXT
+        }
     })
     console.log("Call vayo book Model")
     return Book
